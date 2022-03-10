@@ -1,1 +1,1 @@
-## <font color=red>LearningJava</font>
+# LearningJava
