@@ -4,6 +4,17 @@
 
 ```java
 
+
+public class Enumeration03 {
+    public static void main(String[] args) {
+        System.out.println(Season0.SPRING);
+        System.out.println(Season0.SUMMER);
+        System.out.println(Season0.AUTUMN);
+        System.out.println(Season0.WINTER);
+
+    }
+}
+
 // 演示自定义枚举实现
 enum Season0 {//类
 
@@ -20,9 +31,9 @@ enum Season0 {//类
     // 4. 如果使用enum 来实现枚举，要求将定义常量对象，写在前面
     // 5. 如果我们使用的是无参构造器，创建常量对象，则可以省略 ()
     SPRING("春天", "温暖"),
-    SUMMER("春天", "温暖"),
-    AUTUMN("春天", "温暖"),
-    WINTER("春天", "温暖");
+    SUMMER("夏天", "温暖"),
+    AUTUMN("秋天", "温暖"),
+    WINTER("冬天", "温暖");
     private final String name;
     private final String desc;
 
