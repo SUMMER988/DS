@@ -14,6 +14,7 @@ public class Homework07 {
         Car2 car22 = new Car2(20);
         car22.getAir().flow();
         new Car2(60).getAir().flow();
+        new Car2(60).getAir().flow();
     }
 }
 
