@@ -15,7 +15,7 @@ String s5 = new String(byte[] b);
 6. String 是 final 类，不能被其他的类继承
 7. String 有属性 private final char value[]; 用于存放字符串内容
 8. 一定要注意：value 是一个 final 类型， 不可以修改(需要功力)：
-   即 value 不能指向新的地址，但是单个字符内容是可以变化
+   即 value 不能指向新的地址，但是单个字符内容是可以变化的
 
 ```
 
