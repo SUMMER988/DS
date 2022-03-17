@@ -9,6 +9,7 @@ public class StringExercise08 {
         String b = "abc";//创建 b 对象
         String c = a + b;//StringBuilder String
     }
+    
     //一共创建4个对象
 }
 
